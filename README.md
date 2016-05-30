@@ -2,6 +2,11 @@
 
 ## Changelog
 
+### [1.0.5]
+
+- Rollback `es2015-modules-commonjs`(failed on old project)
+- Move up `babel-plugin-transform-class-properties`
+
 ### [1.0.2]
 
 - Enable `loose` mode (ref: http://www.2ality.com/2015/12/babel6-loose-mode.html)

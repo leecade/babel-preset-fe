@@ -2,6 +2,8 @@ module.exports = {
   plugins: [
     // Remove webpack2 supports it already
     // require('babel-plugin-transform-es2015-modules-commonjs'),
+
+    require('babel-plugin-transform-class-properties'),
     require('babel-plugin-transform-es2015-duplicate-keys'),
     [require('babel-plugin-transform-es2015-template-literals'), {loose: true}],
     require('babel-plugin-transform-es2015-literals'),
@@ -26,7 +28,6 @@ module.exports = {
     require('babel-plugin-syntax-trailing-function-commas'),
     require('babel-plugin-transform-object-rest-spread'),
     require('babel-plugin-transform-class-constructor-call'),
-    require('babel-plugin-transform-class-properties'),
     require('babel-plugin-transform-decorators'),
     require('babel-plugin-transform-export-extensions'),
     require('babel-plugin-transform-do-expressions'),
