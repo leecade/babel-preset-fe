@@ -1,7 +1,7 @@
 module.exports = {
   plugins: [
     // Remove webpack2 supports it already
-    // require('babel-plugin-transform-es2015-modules-commonjs'),
+    require('babel-plugin-transform-es2015-modules-commonjs'),
 
     require('babel-plugin-transform-class-properties'),
     require('babel-plugin-transform-es2015-duplicate-keys'),
