@@ -2,6 +2,10 @@
 
 ## Changelog
 
+### [1.0.8]
+
+- Move up `babel-plugin-transform-decorators-legacy`
+
 ### [1.0.5]
 
 - Rollback `es2015-modules-commonjs`(failed on old project)
