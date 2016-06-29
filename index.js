@@ -40,5 +40,7 @@ module.exports = {
     require('babel-plugin-transform-decorators-legacy').default,
     require('babel-plugin-syntax-async-functions'),
     [require('babel-plugin-transform-regenerator'), { async: false, asyncGenerators: false }],
+    require('babel-plugin-empower-assert'),
+    require('babel-plugin-espower')
   ]
 };
