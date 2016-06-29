@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-fe",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "## Changelog",
   "main": "index.js",
   "scripts": {
