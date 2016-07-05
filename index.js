@@ -1,5 +1,6 @@
 module.exports = {
   plugins: [
+    require('babel-plugin-transform-decorators-legacy').default,
     // Remove webpack2 supports it already
     require('babel-plugin-transform-es2015-modules-commonjs'),
 
@@ -37,7 +38,6 @@ module.exports = {
     require('babel-plugin-syntax-flow'),
     require('babel-plugin-syntax-jsx'),
     require('babel-plugin-transform-react-display-name'),
-    require('babel-plugin-transform-decorators-legacy').default,
     require('babel-plugin-syntax-async-functions'),
     [require('babel-plugin-transform-regenerator'), { async: false, asyncGenerators: false }],
     require('babel-plugin-empower-assert'),
