@@ -40,6 +40,7 @@ module.exports = {
     require('babel-plugin-espower'),
     // Remove webpack2 supports it already
     require('babel-plugin-transform-es2015-modules-commonjs'),
-    [require('babel-plugin-transform-regenerator'), { async: false, asyncGenerators: false }]
+    require('babel-plugin-transform-runtime'),
+    [require('babel-plugin-transform-regenerator')]
   ]
-};
+}

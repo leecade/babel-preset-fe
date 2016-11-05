@@ -2,6 +2,10 @@
 
 ## Changelog
 
+### **[1.0.16]**
+
+- Build-in `babel-plugin-transform-runtime`
+
 ### [1.0.8]
 
 - Move up `babel-plugin-transform-decorators-legacy`
